@@ -2,6 +2,7 @@
   float: left;
   width: 20%;
   margin: 10px;
+  min-width: 250px;
 }
 
 .sidebar {
@@ -24,4 +25,10 @@ body {
 h1 {
   text-align: center;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+  .column, .sidebar {
+    width: 30%;
+  }
 }
