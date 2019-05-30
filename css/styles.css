@@ -1,0 +1,27 @@
+.column {
+  float: left;
+  width: 20%;
+  margin: 10px;
+}
+
+.sidebar {
+  float: left;
+  width: 20%;
+  background: #fff589;
+  height: 1000px;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background: #aaff89;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
